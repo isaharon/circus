@@ -6,4 +6,8 @@ public abstract class Bird extends Animal {
     }
 
     public abstract int getValue();
+
+    public String speak() {
+        return "tweet tweet";
+    }
 }
